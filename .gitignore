@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyt
+*.cover
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data
+data/processed/
+
+# Package and build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Tests
+.pytest_cache/
