@@ -27,6 +27,7 @@ jobs:
         run: |
           python -m py_compile app.py app/ui.py app/recommender.py app/utils.py
       - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
-          export PYTHONPATH=$PWD
           pytest --maxfail=1 --disable-warnings -q
